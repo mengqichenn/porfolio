@@ -40,7 +40,7 @@ export default function Header() {
               </svg>
             </summary>
 
-            <ul className="menu dropdown-content z-20 mt-3 w-52 rounded-box bg-base-100 p-2 shadow">
+            <ul className="menu dropdown-content font-editorial text-base z-20 mt-3 w-52 rounded-box bg-base-100 p-2 shadow">
               <li><Link href="/about">À propos</Link></li>
               <li><Link href="/project">Mes projets</Link></li>
               <li><Link href="/journey">Mon parcours</Link></li>
@@ -50,12 +50,12 @@ export default function Header() {
 
           </details>
 
-          <Link className="btn btn-ghost text-xl" href="./">mengqi chen</Link>
+          <Link className="btn btn-ghost font-caveat text-5xl" href="./">mengqi chen</Link>
         </div>
 
         <div className="navbar-center hidden lg:flex">
           
-          <ul className="menu menu-horizontal px-1 text-lg">
+          <ul className="menu menu-horizontal font-editorial px-1 text-xl">
             <li>
               <Link href="/about" className={`rounded-md px-3 py-2 transition-colors hover:text-base-content ${pathname === "/about" ? "nav-link-active" : "text-base-content hover:bg-base-200" }`}>A propos
               </Link>
@@ -105,11 +105,11 @@ export default function Header() {
           {/* télécharger le CV */}
 
           <div className="pl-5">
-            <a href="/MENGQI_CHEN_CV.pdf" download className="btn btn-sm rounded-md py-4.5 border-base-content/30 bg-transparent text-lg font-normal text-base-content hover:bg-base-200 hidden lg:flex"> <span className="text-2xl">⭳</span>CV</a>
+            <a href="/MENGQI_CHEN_CV.pdf" download className="btn btn-sm rounded-md py-4.5 border-base-content/30 bg-transparent text-lg font-editorial text-base-content hover:bg-base-200 hidden lg:flex"> <span className="text-2xl">⭳</span>CV</a>
           </div>
           {/* selection de langue */}
 
-          <ul className="menu menu-horizontal px-1 text-lg">
+          <ul className="menu menu-horizontal px-1 font-editorial text-lg">
             <li>
               <details>
                 <summary>Langue</summary>

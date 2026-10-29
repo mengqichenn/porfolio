@@ -1,13 +1,15 @@
 export default function Contact() {
   return (
-    <section id="contact" className="w-full py-24 sm:py-32">
+    <section id="contact" className="w-full py-20">
       <h1 className="font-editorial text-5xl sm:text-6xl">Contact</h1>
 
-      <div className="mt-16 grid grid-cols-1 gap-16 lg:grid-cols-[1fr_26rem] lg:items-start">
+      <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1fr]">
 
 
         <div className="flex flex-col items-center text-center w-full p-20 gap-6">
-          <h2>Vous pouvez me contacter par:</h2>
+          <h2 className="font-editorial text-[#26332c] text-2xl text-left">Une question, un projet ou simplement envie d'échanger ?</h2>
+          
+          <h2 className="font-editorial text-[#26332c] text-lg text-left">Je serais ravie de discuter avec vous. Vous pouvez me contacter par:</h2>
 
           {/* logo of email */}
 
@@ -30,37 +32,38 @@ export default function Contact() {
             LinkedIn
           </a>
           
-          <p>ou m'envoyer un message via ce formulaire</p>
+          <p className="font-editorial text-[#26332c] text-left">ou m'envoyer un message via ce formulaire </p>
 
         </div>
+        
 
+        <div>
 
+        
       {/* formulaire de contact */}
+        
+        <form action="https://formspree.io/f/xyeeejod" method="POST" className="form border border-base-300 rounded-4xl shadow-lg w-full px-16 py-10">
 
-        <fieldset className="fieldset border-base-300 rounded-box w-full border p-16">
-          
-          <legend className="font-editorial fieldset-legend text-xl">Formulaire de contact</legend>
+          <label className="font-editorial label text-lg mb-2">Prénom</label>
+            <input type="text" className="input input-lg validator w-full rounded-lg" name="first-name" required minLength="2" maxLength="30"/>
 
-          <label className="font-editorial label text-lg">Prénom</label>
-            <input type="text" className="input input-lg validator" required minLength="2" maxLength="30"/>
+          <label className="font-editorial label text-lg my-2">Nom</label>
+            <input type="text" className="input input-lg validator w-full rounded-lg" name="last-name" required minLength="2" maxLength="30"/>
 
-          <label className="font-editorial label text-lg">Nom</label>
-            <input type="text" className="input input-lg validator" required minLength="2" maxLength="30"/>
-
-          <label className="font-editorial label text-lg">Adresse mail</label>
-            <input type="email" className="input input-lg validator" required />
+          <label className="font-editorial label text-lg my-2">Adresse mail</label>
+            <input type="email" className="input input-lg validator w-full rounded-lg" name="email" required />
             <div className="validator-hint hidden">Veuillez saisir une adresse mail valide.</div>
 
-          <label className="font-editorial label text-lg">Sujet</label>
-            <input type="text" className="input input-lg" />
+          <label className="font-editorial label text-lg my-2">Sujet</label>
+            <input type="text" className="input input-lg w-full rounded-lg" name="subject" />
 
-          <label className="font-editorial label text-lg">Message</label>
-            <textarea className="textarea textarea-lg sm:textarea-sm md:textarea-md lg:textarea-lg xl:textarea-xl" required></textarea>
+          <label className="font-editorial label text-lg my-2">Message</label>
+            <textarea className="textarea textarea-lg w-full rounded-lg sm:textarea-sm md:textarea-md lg:textarea-lg xl:textarea-xl " name="message" required></textarea>
           
-          <button className="btn btn-outline border-[#55605C] bg-[#ffffff] text-[#55605C] hover:bg-[#000000] hover:text-[#ffffff] font-editorial w-xs">Envoyer</button>
+          <button type="submit" className="btn btn-outline border-[#55605C] bg-[#ffffff] text-[#55605C] hover:bg-[#000000] hover:text-[#ffffff] font-editorial w-full mt-5" >Envoyer</button>
           
-        </fieldset>
-
+        </form>
+        </div>
           
       </div>
 

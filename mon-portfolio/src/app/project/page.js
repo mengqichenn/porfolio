@@ -30,9 +30,9 @@ const projects = [
     },
 
     {
-        title: "Porfolio",
-        video:"/videos/project-porfolio.mp4",
-        link: "https://github.com/mengqichenn/porfolio",
+        title: "Portfolio",
+        video:"/videos/project-portfolio.mp4",
+        link: "https://github.com/mengqichenn/portfolio",
         description:
         "Ce portfolio présente mon parcours personnel et professionnel, mes projets ainsi que mon évolution vers les métiers de l’informatique et de la data. Développé avec Next.js, Tailwind CSS et DaisyUI, il m’a permis d’approfondir la création d’interfaces modernes, responsive et accessibles. \n J’y ai conçu plusieurs pages, une navigation adaptée aux différents écrans, un mode clair/sombre, une présentation détaillée de mes projets et un formulaire de contact. Ce projet évoluera au fil de ma formation afin de refléter mes nouvelles compétences, expériences et réalisations.",
         tools: ["Next.js", "Tailwind CSS", "DaisyUI"],

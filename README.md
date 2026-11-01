@@ -1,6 +1,13 @@
 # Mon Portfolio
 
 Un site portfolio réalisé par Mengqi Chen avec Next.js.
+Il est accessible via https://portfolio-mengqichenn.vercel.app/ .
+
+## Stack technique
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [daisyUI](https://daisyui.com/)
 
 ## Prérequis
 
@@ -32,3 +39,8 @@ Ouvrir [http://localhost:3000](http://localhost:3000) dans un navigateur. Le ser
 - `public/` : fichiers statiques, comme les images, les vidéos et le CV.
 
 Consulter `package.json` pour voir les dépendances du projet et `package-lock.json` pour retrouver leurs versions. 
+
+
+## Déploiement
+
+Le site est hébergé sur [Vercel](https://vercel.com/), connecté à ce dépôt GitHub. Chaque `push` sur la branche principale déclenche automatiquement un nouveau build et une nouvelle mise en ligne.

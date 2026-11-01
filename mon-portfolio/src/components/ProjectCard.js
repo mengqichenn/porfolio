@@ -8,7 +8,7 @@ export default function ProjectCard({
 }){
 
     return (
-        <article className="card overflow-hidden border border-base-300 bg-base-200 text-justify shadow-lg">
+        <article className="card overflow-hidden border border-base-300 bg-base-200 text-justify shadow-lg transition-all duration-200 hover:-translate-y-1 hover:rounded-2xl hover:scale-[1.05] hover:shadow-lg">
             <figure className="aspect-video bg-base-300">
                 <video className="h-full w-full object-cover" style={{ objectPosition: videoPosition }} autoPlay loop muted playsInline>
                     <source src={video} type="video/mp4" />

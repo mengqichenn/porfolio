@@ -107,9 +107,11 @@ export default function Header() {
           <div className="pl-5">
             <a href="/MENGQI_CHEN_CV.pdf" download className="btn btn-sm rounded-md py-4.5 border-base-content/30 bg-transparent text-lg font-editorial text-base-content hover:bg-base-200 hidden lg:flex"> <span className="text-2xl">⭳</span>CV</a>
           </div>
+
+
           {/* selection de langue */}
 
-          <ul className="menu menu-horizontal px-1 font-editorial text-lg">
+          <ul className="hidden menu menu-horizontal px-1 font-editorial text-lg">
             <li>
               <details>
                 <summary>Langue</summary>

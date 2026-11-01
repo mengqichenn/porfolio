@@ -25,16 +25,16 @@ const projects = [
         video:"/videos/project-job-board.mp4",
         link: "https://github.com/mengqichenn/Projet-Job-Board",
         description:
-        "Talentis est un projet scolaire réalisé en équipe avec Chris et Meryeme. Cette plateforme de recherche d’emploi comprend un front-end en HTML, CSS et JavaScript, une API Django et une base de données MySQL, le tout configuré avec Docker.",
+        "Talentis est un projet scolaire réalisé en équipe avec Chris et Meryeme. L’objectif était de concevoir une plateforme de recherche d’emploi permettant aux utilisateurs de consulter des offres et de gérer les informations associées. Le projet repose sur un front-end développé en HTML, CSS et JavaScript, connecté à une API Django REST Framework et à une base de données MySQL. L’ensemble de l’environnement a été configuré avec Docker afin de faciliter l’installation et le travail collaboratif. \n Cette expérience m’a permis de découvrir le fonctionnement d’une application full-stack, les échanges entre une interface utilisateur, une API et une base de données, ainsi que l’organisation d’un projet mené en équipe.",
         tools: ["Django REST framework", "JavaScript", "HTML", "CSS", "MySQL", "Docker"],
     },
 
     {
         title: "Porfolio",
         video:"/videos/project-porfolio.mp4",
-        link: "https://github.com/mengqichenn/Projet-Job-Board",
+        link: "https://github.com/mengqichenn/porfolio",
         description:
-        "",
+        "Ce portfolio présente mon parcours personnel et professionnel, mes projets ainsi que mon évolution vers les métiers de l’informatique et de la data. Développé avec Next.js, Tailwind CSS et DaisyUI, il m’a permis d’approfondir la création d’interfaces modernes, responsive et accessibles. \n J’y ai conçu plusieurs pages, une navigation adaptée aux différents écrans, un mode clair/sombre, une présentation détaillée de mes projets et un formulaire de contact. Ce projet évoluera au fil de ma formation afin de refléter mes nouvelles compétences, expériences et réalisations.",
         tools: ["Next.js", "Tailwind CSS", "DaisyUI"],
     },
 ];

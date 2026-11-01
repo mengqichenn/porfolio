@@ -7,9 +7,9 @@ export default function Contact() {
 
 
         <div className="flex flex-col items-center text-center w-full p-20 gap-6">
-          <h2 className="font-editorial text-[#26332c] text-2xl text-left">Une question, un projet ou simplement envie d'échanger ?</h2>
+          <h2 className="font-editorial text-2xl text-left">Une question, un projet ou simplement envie d'échanger ?</h2>
           
-          <h2 className="font-editorial text-[#26332c] text-lg text-left">Je serais ravie de discuter avec vous. Vous pouvez me contacter par:</h2>
+          <h2 className="font-editorial text-lg text-left">Je serais ravie de discuter avec vous. Vous pouvez me contacter par :</h2>
 
           {/* logo of email */}
 
@@ -32,7 +32,7 @@ export default function Contact() {
             LinkedIn
           </a>
           
-          <p className="font-editorial text-[#26332c] text-left">ou m'envoyer un message via ce formulaire </p>
+          <p className="font-editorial text-left">ou m'envoyer un message via ce formulaire </p>
 
         </div>
         
@@ -44,20 +44,20 @@ export default function Contact() {
         
         <form action="https://formspree.io/f/xyeeejod" method="POST" className="form border border-base-300 rounded-4xl shadow-lg w-full px-16 py-10">
 
-          <label className="font-editorial label text-lg mb-2">Prénom</label>
+          <label className="font-editorial label text-lg mb-2">Prénom *</label>
             <input type="text" className="input input-lg validator w-full rounded-lg" name="first-name" required minLength="2" maxLength="30"/>
 
-          <label className="font-editorial label text-lg my-2">Nom</label>
+          <label className="font-editorial label text-lg my-2">Nom *</label>
             <input type="text" className="input input-lg validator w-full rounded-lg" name="last-name" required minLength="2" maxLength="30"/>
 
-          <label className="font-editorial label text-lg my-2">Adresse mail</label>
+          <label className="font-editorial label text-lg my-2">Adresse mail *</label>
             <input type="email" className="input input-lg validator w-full rounded-lg" name="email" required />
             <div className="validator-hint hidden">Veuillez saisir une adresse mail valide.</div>
 
           <label className="font-editorial label text-lg my-2">Sujet</label>
             <input type="text" className="input input-lg w-full rounded-lg" name="subject" />
 
-          <label className="font-editorial label text-lg my-2">Message</label>
+          <label className="font-editorial label text-lg my-2">Message *</label>
             <textarea className="textarea textarea-lg w-full rounded-lg sm:textarea-sm md:textarea-md lg:textarea-lg xl:textarea-xl " name="message" required></textarea>
           
           <button type="submit" className="btn btn-outline border-[#55605C] bg-[#ffffff] text-[#55605C] hover:bg-[#000000] hover:text-[#ffffff] font-editorial w-full mt-5" >Envoyer</button>

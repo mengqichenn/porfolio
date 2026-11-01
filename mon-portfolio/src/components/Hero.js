@@ -16,16 +16,13 @@ export default function Hero() {
 
                 <h1 className="font-hero font-light text-[clamp(2.2rem,7vw,4.2rem)] leading-[1.05] max-w-[14ch]">Bonjour !</h1>
 
-                <h1 className="font-hero font-light text-[clamp(2.2rem,7vw,4.2rem)] leading-[1.2] max-w-[20ch]">Je suis <em className="font-hero font-light text-[clamp(2.6rem,7vw,5.2rem)] leading-[1.2] max-w-[20ch]">Mengqi Chen,</em> </h1>
+                <h2 className="font-hero font-light text-[clamp(2.2rem,7vw,4.2rem)] leading-[1.2] max-w-[20ch]">Je suis <em className="font-hero font-light text-[clamp(2.6rem,7vw,5.2rem)] leading-[1.2] max-w-[20ch]">Mengqi Chen,</em> </h2>
                 
                 
-                <h1 className="font-geist font-light text-[clamp(2.0rem,7vw,3.5rem)] leading-[1.2] max-w-[20ch]">future architecte des systèmes d&apos;<em className="text-[#e3b98f]">information</em></h1>
+                <h2 className="font-geist font-light text-[clamp(2.0rem,7vw,3.5rem)] leading-[1.2] max-w-[20ch]">future architecte des systèmes d&apos;<em className="text-[#e3b98f]">information</em></h2>
 
             
             </div>
-
-            
-
 
         </section>
     )

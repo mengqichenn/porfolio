@@ -45,7 +45,6 @@
   }
 }
 
-
 .nav-link-active {
   @apply bg-base-300;
 }
@@ -55,15 +54,6 @@
   color: #111827;
 }
 
-.journey-card {
-  background-color: #f4f0e9;
-  border: 1px solid #e5dacc;
-}
-
-[data-theme="dark"] .journey-card {
-  background-color: #5b5b5a;
-  border-color: #4b463e;
-}
 
 body {
   background: var(--color-base-100);

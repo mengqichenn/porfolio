@@ -8,7 +8,7 @@ export default function ProjectCard({
 }){
 
     return (
-        <article className="card overflow-hidden border border-base-300 bg-base-200 shadow-sm">
+        <article className="card overflow-hidden border border-base-300 bg-base-200 text-justify shadow-lg">
             <figure className="aspect-video bg-base-300">
                 <video className="h-full w-full object-cover" style={{ objectPosition: videoPosition }} autoPlay loop muted playsInline>
                     <source src={video} type="video/mp4" />
@@ -20,7 +20,7 @@ export default function ProjectCard({
                     <a href={link} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-primary"> {title} 🔗</a>
                 </h2>
 
-                <p className="leading-7 text-base-content/75">
+                <p className="whitespace-pre-line leading-7 text-base-content/75">
                 {description}
                 </p>
 
